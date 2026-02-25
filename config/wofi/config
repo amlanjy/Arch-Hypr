@@ -1,0 +1,9 @@
+width=600
+lines=8
+location=center
+show=drun
+prompt=
+allow_images=true
+hide_scroll=true
+# Use the style file we just created
+style=~/.config/wofi/style.css

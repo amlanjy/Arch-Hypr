@@ -1,0 +1,53 @@
+/* FONT: Ensure JetBrainsMono Nerd Font is installed */
+* {
+    font-family: "JetBrainsMono Nerd Font", "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+/* Window styling */
+window {
+    margin: 0px;
+    border: 2px solid #61AFEF; /* Blue accent from Rofi theme */
+    border-radius: 12px;
+    background-color: #1E2127; /* Dark Grey Background */
+}
+
+/* Search Input Box */
+#input {
+    margin: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #282B31; /* background-alt */
+    color: #FFFFFF; /* foreground */
+}
+
+/* Outer container for the list */
+#inner-box {
+    margin: 5px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+/* Individual list items */
+#entry {
+    padding: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+/* Selected item (hover/focus) */
+#entry:selected {
+    background-color: #61AFEF; /* Selected blue accent */
+    outline: none;
+}
+
+/* Text inside the selected item */
+#entry:selected #text {
+    color: #1E2127; /* Background color for contrast on selection */
+}
+
+/* Icon styling */
+#img {
+    margin-right: 10px;
+}
